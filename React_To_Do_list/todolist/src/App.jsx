@@ -19,6 +19,9 @@ function App(){
 
   function delteDoto(todoindex){
     setToDo((pretodo)=>pretodo.filter((prevtodo,previndex)=>{
+      console.log("preindex",previndex)
+      console.log("prevtodo",pretodo)
+      console.log("todoindex",todoindex)
       return previndex!=todoindex 
     }))
     
