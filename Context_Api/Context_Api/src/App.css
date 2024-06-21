@@ -1,0 +1,24 @@
+.family{
+    
+    display: flex;
+    justify-content: left;
+    margin: 1rem;
+   
+}
+.parent{
+    border: solid red;
+    padding: 20px;
+}
+.child{
+    border: solid blue;
+    padding: 10px;
+}
+
+.granddauter{
+    border: solid blueviolet;
+    padding: 5px;
+}
+.grandson{
+    border: solid blueviolet;
+    padding: 5px;
+}
