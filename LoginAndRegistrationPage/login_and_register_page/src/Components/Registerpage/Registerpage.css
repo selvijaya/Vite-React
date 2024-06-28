@@ -1,0 +1,107 @@
+body{
+  background: url('../Images/call3.png');
+  background-size: cover;
+}
+
+.Wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    
+  }
+  
+  .Form-box {
+    background:transparent;
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Form-box h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-box {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-box input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+
+  }
+  
+  .input-box input:focus {
+    border-color: #007bff; /* Adjust color as per your design */
+  }
+
+ .icon {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888888;
+  }
+
+  .remember-forgot {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+  }
+  
+  .remember-forgot label {
+    font-size: 14px;
+    color: white;
+  }
+  
+  .remember-forgot a {
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 30px;
+    color: #007bff; /* Adjust color as per your design */
+  }
+  
+  button[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff; /* Adjust color as per your design */
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3; /* Adjust color as per your design */
+  }
+  
+  .Register {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 100px;
+    color: white;
+  }
+  
+  .Register a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: #007bff; /* Adjust color as per your design */
+  }
+  
